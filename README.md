@@ -2,13 +2,43 @@
 
 | | |
 |-|-|
-|`Author` | Your full name
+|`Author` | NAZGODINEANU Eduard
 
-## Description
+## This project aims to develop a comprehensive RFID reader and writer program using an Arduino microcontroller and an RFID module RC-522. RFID (Radio Frequency Identification) technology is widely used for various applications such as access control, inventory management, and identification systems. The program will allow users to interact with RFID tags, both reading and writing data to them.
 
 ## Motivation
 
-## Architecture
+## Architecture for Arduino RFID Reader and Writer Program
+
+1. Hardware Components:
+Arduino Uno or similar microcontroller board.
+RFID Module RC-522.
+RFID tags (passive, writable).
+
+2. Software Components:
+Arduino IDE for writing and uploading code.
+Arduino libraries for RFID module (e.g., MFRC522 library for RC-522).
+
+3. System Flow:
+Initialization:
+
+The Arduino initializes communication with the RFID module using SPI protocol.
+Setup function initializes the RFID module and serial communication for debugging.
+Read RFID Tags:
+
+The program continuously scans for RFID tags in its vicinity.
+Upon detecting a tag, it reads its unique identifier (UID) and any additional data stored on the tag.
+The UID and data are then displayed on the serial monitor for user observation.
+Write to RFID Tags:
+
+When triggered by user input, the program enters the writing mode.
+User inputs data to be written to the tag through the serial monitor.
+The program writes the provided data to a blank or rewritable RFID tag.
+User Interface:
+
+The user interacts with the program through the Arduino serial monitor.
+Options for reading and writing data to RFID tags are displayed.
+Feedback messages are provided to the user indicating the success or failure of operations.
 
 ### Block diagram
 
