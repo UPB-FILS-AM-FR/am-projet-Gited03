@@ -4,9 +4,11 @@
 |-|-|
 |`Author` | NAZGODINEANU Eduard
 
-## This project aims to develop a comprehensive RFID reader and writer program using an Arduino microcontroller and an RFID module RC-522. RFID (Radio Frequency Identification) technology is widely used for various applications such as access control, inventory management, and identification systems. The program will allow users to interact with RFID tags, both reading and writing data to them.
+## Description
+This project aims to develop a comprehensive RFID reader and writer program using an Arduino microcontroller and an RFID module RC-522. RFID (Radio Frequency Identification) technology is widely used for various applications such as access control, inventory management, and identification systems. The program will allow users to interact with RFID tags, both reading and writing data to them.
 
-## Starting this Arduino RFID Reader and Writer project is about more than just doing a task. It's about exploring something genuinely useful and fascinating. Consider that the RFID technology is used in everything these days, from controlling access control in buildings to tracking merchandise in stores. So why not get right into it and create something that will teach me useful skills and have practical uses as well?
+## Motivation
+Starting this Arduino RFID Reader and Writer project is about more than just doing a task. It's about exploring something genuinely useful and fascinating. Consider that the RFID technology is used in everything these days, from controlling access control in buildings to tracking merchandise in stores. So why not get right into it and create something that will teach me useful skills and have practical uses as well?
 First, there's the element of experiential learning. I've always preferred to take action rather watching, and this initiative allows me to take the lead. I get to witness how everything works in real time, from configuring the hardware to creating the code. It's now more than just theory; it's useful information that I can use outside of the classroom.
 
 ## Architecture for Arduino RFID Reader and Writer Program
@@ -57,8 +59,8 @@ Feedback messages are provided to the user indicating the success or failure of 
 
 | Device | Usage | Price |
 |--------|--------|-------|
-| Activ Buzzer | Buzzer | [1.5 RON](https://www.optimusdigital.ro/ro/audio-buzzere/635-buzzer-activ-de-3-v.html?search_query=buzzer&results=61) |
-| Push Button | Button | [1 RON](https://www.optimusdigital.ro/ro/butoane-i-comutatoare/1119-buton-6x6x6.html?search_query=buton&results=222) |
+| ARDUINO UNO R3 | Dev. Board | [58,85 RON](https://cleste.ro/arduino-uno-r3-atmega328p.html?gad_source=1&gclid=Cj0KCQjwjLGyBhCYARIsAPqTz1-9Vd-pLCiuJRZJj9XcePhA6T4gauvL9_tl6sYxR0DVBgq1AqwPgLQaAlqLEALw_wcB) |
+| RFID RC-522 Module | RFID Module | [17,22 RON](https://cleste.ro/modul-rfid-cu-card-si-tag.html?gad_source=1&gclid=Cj0KCQjwjLGyBhCYARIsAPqTz1-gAFBNIGO0nOHHEiM3wtmZP5jT_64Pw6Dbbe1O_AOkRPs7MY0QDLwaArPtEALw_wcB) |
 | Jumper Wires | Connecting components | [7 RON](https://www.optimusdigital.ro/ro/fire-fire-mufate/884-set-fire-tata-tata-40p-10-cm.html?search_query=set+fire&results=110) |
 | Breadboard | Project board | [10 RON](https://www.optimusdigital.ro/ro/prototipare-breadboard-uri/8-breadboard-830-points.html?search_query=breadboard&results=145) |
 
