@@ -47,8 +47,8 @@ Feedback messages are provided to the user indicating the success or failure of 
 ### Block diagram
 
 <!-- Make sure the path to the picture is correct -->
-![Block Diagram](BLOCKDIAGRAM1.png)
-![Block Diagram](PIC1.png)
+![Block Diagram](BLOCKDIAGRAM2.png)
+![Block Diagram](PIC2.png)
 
 ### Schematic
 ![Schematic](Schematic1.png)
@@ -83,6 +83,7 @@ Feedback messages are provided to the user indicating the success or failure of 
 ### Week 7 - 19 May
 
 ### Week 20 - 26 May
+
 
 
 ## Reference links
