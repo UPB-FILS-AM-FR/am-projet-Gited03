@@ -47,7 +47,8 @@ Feedback messages are provided to the user indicating the success or failure of 
 ### Block diagram
 
 <!-- Make sure the path to the picture is correct -->
-![Block Diagram](schematics/block_diagram.png)
+![Block Diagram](BLOCKDIAGRAM1.png)
+![Block Diagram](PIC1.png)
 
 ### Schematic
 ![Schematic](Schematic1.png)
