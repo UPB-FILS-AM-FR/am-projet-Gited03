@@ -50,7 +50,7 @@ Feedback messages are provided to the user indicating the success or failure of 
 ![Block Diagram](schematics/block_diagram.png)
 
 ### Schematic
-![Schematic](am-projet-Gited03/Schematic1.png)
+![Schematic](Schematic1.png)
 
 ### Components
 
