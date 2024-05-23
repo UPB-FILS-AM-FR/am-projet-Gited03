@@ -17,12 +17,13 @@ First, there's the element of experiential learning. I've always preferred to ta
 Arduino Uno or similar microcontroller board.
 RFID Module RC-522.
 RFID tags (passive, writable).
+Red & Green LEDs.
 
-2. Software Components:
+3. Software Components:
 Arduino IDE for writing and uploading code.
 Arduino libraries for RFID module (e.g., MFRC522 library for RC-522).
 
-3. System Flow:
+4. System Flow:
 Initialization:
 
 The Arduino initializes communication with the RFID module using SPI protocol.
@@ -49,8 +50,39 @@ Feedback messages are provided to the user indicating the success or failure of 
 ![Block Diagram](schematics/block_diagram.png)
 
 ### Schematic
-
-![Schematic](schematics/kicad_schematic.png)
+<!--![Schematic](schematics/kicad_schematic.png)-->
++-----------------------+
+|      Arduino Uno      |
+|                       |
+|  +-----------------+  |
+|  | MFRC522 Module  |  |
+|  |                 |  |
+|  |  SDA -> Pin 10  |  |
+|  |  SCK -> Pin 13  |  |
+|  | MOSI -> Pin 11  |  |
+|  | MISO -> Pin 12  |  |
+|  |  RST -> Pin 9   |  |
+|  |  GND -> GND     |  |
+|  |  3.3V -> 3.3V   |  |
+|  +-----------------+  |
+|                       |
+|                       |
+|  +-----------------+  |
+|  |   Green LED     |  |
+|  |                 |  |
+|  |  Anode -> Pin 7 |  |
+|  |  Cathode -> GND |  |
+|  +-----------------+  |
+|                       |
+|                       |
+|  +-----------------+  |
+|  |    Red LED      |  |
+|  |                 |  |
+|  |  Anode -> Pin 8 |  |
+|  |  Cathode -> GND |  |
+|  +-----------------+  |
+|                       |
++-----------------------+
 
 ### Components
 
@@ -62,7 +94,7 @@ Feedback messages are provided to the user indicating the success or failure of 
 | ARDUINO UNO R3 | Dev. Board | [58,85 RON](https://cleste.ro/arduino-uno-r3-atmega328p.html?gad_source=1&gclid=Cj0KCQjwjLGyBhCYARIsAPqTz1-9Vd-pLCiuJRZJj9XcePhA6T4gauvL9_tl6sYxR0DVBgq1AqwPgLQaAlqLEALw_wcB) |
 | RFID RC-522 Module | RFID Module | [17,22 RON](https://cleste.ro/modul-rfid-cu-card-si-tag.html?gad_source=1&gclid=Cj0KCQjwjLGyBhCYARIsAPqTz1-gAFBNIGO0nOHHEiM3wtmZP5jT_64Pw6Dbbe1O_AOkRPs7MY0QDLwaArPtEALw_wcB) |
 | Jumper Wires | Connecting components | [7 RON](https://www.optimusdigital.ro/ro/fire-fire-mufate/884-set-fire-tata-tata-40p-10-cm.html?search_query=set+fire&results=110) |
-| Breadboard | Project board | [10 RON](https://www.optimusdigital.ro/ro/prototipare-breadboard-uri/8-breadboard-830-points.html?search_query=breadboard&results=145) |
+| LEDs | Confirmation light | [? RON]() |
 
 ### Libraries
 
@@ -70,7 +102,7 @@ Feedback messages are provided to the user indicating the success or failure of 
 
 | Library | Description | Usage |
 |---------|-------------|-------|
-| [lib-name1](link-to-lib) | official description of the lib | Used for accesing the peripherals of the microcontroller  |
+| [Arduino RFID Library for MFRC522 by miguelbalboa](https://github.com/miguelbalboa/rfid) | Arduino library for MFRC522 and other RFID RC522 based modules. Read and write different types of Radio-Frequency IDentification (RFID) cards on your Arduino using a RC522 based reader connected via the Serial Peripheral Interface (SPI) interface. | Used for accesing the peripherals of the microcontroller  |
 | [lib-name2](link-to-lib) | official description of the lib | Used for accesing the peripherals of the microcontroller  |
 
 ## Log
