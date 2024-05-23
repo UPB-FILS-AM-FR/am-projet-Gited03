@@ -50,39 +50,7 @@ Feedback messages are provided to the user indicating the success or failure of 
 ![Block Diagram](schematics/block_diagram.png)
 
 ### Schematic
-<!--![Schematic](schematics/kicad_schematic.png)-->
-+-----------------------+
-|      Arduino Uno      |
-|                       |
-|  +-----------------+  |
-|  | MFRC522 Module  |  |
-|  |                 |  |
-|  |  SDA -> Pin 10  |  |
-|  |  SCK -> Pin 13  |  |
-|  | MOSI -> Pin 11  |  |
-|  | MISO -> Pin 12  |  |
-|  |  RST -> Pin 9   |  |
-|  |  GND -> GND     |  |
-|  |  3.3V -> 3.3V   |  |
-|  +-----------------+  |
-|                       |
-|                       |
-|  +-----------------+  |
-|  |   Green LED     |  |
-|  |                 |  |
-|  |  Anode -> Pin 7 |  |
-|  |  Cathode -> GND |  |
-|  +-----------------+  |
-|                       |
-|                       |
-|  +-----------------+  |
-|  |    Red LED      |  |
-|  |                 |  |
-|  |  Anode -> Pin 8 |  |
-|  |  Cathode -> GND |  |
-|  +-----------------+  |
-|                       |
-+-----------------------+
+![Schematic](am-projet-Gited03/Schematic1.png)
 
 ### Components
 
